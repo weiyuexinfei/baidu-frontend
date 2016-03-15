@@ -1,0 +1,2 @@
+使用position:absolute定位中间元素，由于absolute不在文档流中，并不能撑开父元素的高度，使得屏幕大小变化时，main-content高度没有随之变化。overflow:hidden会截掉超出的部分。
+
