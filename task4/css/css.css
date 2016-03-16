@@ -6,10 +6,10 @@
 .greybox {
 	background-color: #ccc;
 	width: 400px;
-	height: 200px;
+	min-height: 200px;
 	top: 50%;
 	left: 50%;
-	margin-top: -100px;
+	transform:translateY(-50%);
 	margin-left:-200px;
 	position: absolute;
 }
@@ -18,12 +18,16 @@
 	height: 50px;
 	background-color: #fc0;
 	-webkit-border-radius: 0 0 50px 0;
+	position: absolute;
+	top: 0px;
+	left: 0px;
 }
 .quartercircle2 {
 	width: 50px;
 	height: 50px;
 	background-color: #fc0;
 	-webkit-border-radius: 50px 0 0 0;
-	margin-top: 100px;
-	margin-left: 350px;
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
 }
